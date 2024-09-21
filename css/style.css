@@ -2,6 +2,23 @@
 *{
     font-family: 'Poppins',cursive;
 }
+/* Media Queries para pantallas móviles */
+@media (max-width: 600px) {
+    .greetings {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .description {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .botones {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
 body{
     color: azure;
     width: 100%;
